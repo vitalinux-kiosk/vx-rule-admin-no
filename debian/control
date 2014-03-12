@@ -1,0 +1,16 @@
+Source: vx-rule-admin-no
+Section: utils
+Priority: extra
+Maintainer: Jose Antonio Chavarría <jachavar@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/vitalinux/vx-rule-admin-no
+
+Package: vx-rule-admin-no
+Architecture: all
+Provides: vx-rule-admin
+Conflicts: vx-rule-admin
+Replaces: vx-rule-admin
+Depends: ${misc:Depends}, ${python:Depends}, rpl
+Description: Remove sudo group from machine users
+ Also configures root password as 'root'

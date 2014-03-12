@@ -1,0 +1,6 @@
+vx-rule-admin-no (1.0-1) unstable; urgency=low
+
+  * Remove sudo group from machine users
+  * Also configures root password as 'root'
+
+ -- Jose Antonio Chavarría <jachavar@gmail.com>  Tue, 11 Mar 2014 12:48:47 +0200
